@@ -1,6 +1,7 @@
-# microverse-ruby-template
+# TDD Project
 
-A repo template for Ruby project
+A hands-on project that introduces users to Test-Driven Development
+(TDD) concept.
 
 
 ## Built With
@@ -13,22 +14,29 @@ A repo template for Ruby project
 To get this program running on your computer,
 
 1. First, install Ruby
-2. Clone the project repository ([link](.))
-3. Run **`main.rb`**
-
+2. Clone the project repository ([link](..))
+3. In terminal, run 
+   ```
+   $ gem install rspec
+   
+   $ rspec spec
+   ```
 
 ## Authors
 
-👤 **Steve**
+👤 **Steven**
 
 - GitHub: [@sntakirutimana72](https://github.com/sntakirutimana72/)
-- LinkedIn: [steve-ntakirutimana](https://www.linkedin.com/in/steve-ntakirutimana/) 
+
+👤 **Divine Charlotte**
+
+- GitHub: [@divinecharlotte](https://github.com/divinecharlotte/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](../../issues/)
 
 ## Show your support
 
@@ -36,7 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Fellow Micronauts
+- Fellow Micronaut
 
 ## 📝 License
 
