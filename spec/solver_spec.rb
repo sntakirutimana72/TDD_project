@@ -24,20 +24,16 @@ describe Solver do
 
   context '#fizzbuzz' do
     it 'should return string "fizz" if number is divisible by 3' do
-      allow(@solver).to receive(:fizzbuzz).with(3).and_return('fizz')
-      expect(@solver.fizzbuzz(3)).to eq 'fizz'
+      expect(Solver.new.fizzbuzz(3)).to eq 'fizz'
     end
     it 'should return string "Buzz" if number is divisible by 5' do
-      allow(@solver).to receive(:fizzbuzz).with(5).and_return('buzz')
-      expect(@solver.fizzbuzz(5)).to eq 'buzz'
+      expect(Solver.new.fizzbuzz(5)).to eq 'buzz'
     end
     it 'should return string "FizzBuzz" if number is divisible by 3 and 5' do
-      allow(@solver).to receive(:fizzbuzz).with(15).and_return('fizzbuzz')
-      expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
+      expect(Solver.new.fizzbuzz(15)).to eq 'fizzbuzz'
     end
     it 'should return number as a string if number is not divisible by 3 or 5' do
-      allow(@solver).to receive(:fizzbuzz).with(1).and_return('1')
-      expect(@solver.fizzbuzz(1)).to eq '1'
+      expect(Solver.new.fizzbuzz(1)).to eq '1'
     end
   end
 end
